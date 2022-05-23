@@ -1,0 +1,16 @@
+﻿
+
+create table test_result_ws (
+
+objectid  serial not null,
+ws_name  character varying(255),
+test_date  character varying(255),
+table_name character varying(255),
+count_time integer,
+dbname character varying(255),
+table_row_count integer
+)
+
+
+
+insert into test_result_ws  (ws_name,test_date,table_name,count_time,dbname,table_row_count) values (,);
